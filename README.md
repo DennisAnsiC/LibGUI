@@ -1,0 +1,4 @@
+LibGUI
+======
+
+Small GUI library
