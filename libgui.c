@@ -4,10 +4,10 @@
 ** Um conjunto de funções auxiliares destinadas a criação de controles **
 ** personalizados utilizando a WinAPI.                                 **
 **                                                                     **
-** Autor: Sonic / soniclab.sourceforge.net                             **
+** Autor: Dennis / https://github.com/DennisAnsiC/                     **
 **                                                                     **
 ** ******************************************************************* */
- 
+
 /* ** Headers ******************************************************** */
 #include "libgui.h"
 

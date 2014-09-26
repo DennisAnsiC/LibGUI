@@ -1,13 +1,13 @@
 #pragma comment(lib, "Comctl32.lib")
 
-#include <Windows.h>	 /* Windows Run-Time headers */
-#include <SonicRT.h>	 /* Sonic Run-Time headers */
+#include <Windows.h>	/* Windows Run-Time headers */
+#include <SonicRT.h>	/* Sonic Run-Time headers */
 #include <Commctrl.h>
 
 _LIBGUI_CONFIGS_		/* LibGUI Config's */
 
 /* Configs */
-#define TITULO			"LibGUI - By Sonic - soniclab.sourceforge.net"
+#define TITULO			"LibGUI - By Dennis - https://github.com/DennisAnsiC/"
 #define LARGURA			648
 #define ALTURA			600
 
@@ -57,63 +57,30 @@ wWinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPWSTR lpCmdLine,int nShowC
 	}
 
 	/* Cria janela principal */
-	if(nil==(Window=CreateSimpleWindow(SIMPLE_NOMAX,TITULO,CENTER_X(LARGURA),CENTER_Y(ALTURA),LARGURA,ALTURA,0,HWND_DESKTOP))){
-		MessageBox(0,L"Não foi possível criar janela principal.",L"ERROR",MB_OK|MB_ICONERROR);
-		return 1;
-	}
+	Window=CreateSimpleWindow(SIMPLE_NOMAX,TITULO,CENTER_X(LARGURA),CENTER_Y(ALTURA),LARGURA,ALTURA,0,HWND_DESKTOP);
 
 	/* Button's */
-	if(nil==(CreateButton(33,30,190,52,"Botao 01",BTN_ID_01,Window))){
-		MessageBox(0,L"Não foi possível criar botão!",L"ERROR",MB_OK|MB_ICONERROR);
-		return 1;
-	}
-	if(nil==(CreateButton(227,30,190,52,"Botao 02",BTN_ID_02,Window))){
-		MessageBox(0,L"Não foi possível criar botão!",L"ERROR",MB_OK|MB_ICONERROR);
-		return 1;
-	}
-	if(nil==(CreateButton(421,30,190,52,"Botao 03",BTN_ID_03,Window))){
-		MessageBox(0,L"Não foi possível criar botão!",L"ERROR",MB_OK|MB_ICONERROR);
-		return 1;
-	}
+	CreateButton(33,30,190,52,"Botao 01",BTN_ID_01,Window);
+	CreateButton(227,30,190,52,"Botao 02",BTN_ID_02,Window);
+	CreateButton(421,30,190,52,"Botao 03",BTN_ID_03,Window);
 
 	/* Edit's */
-	if(nil==(CreateEdit(33,90,190,20,"",EDT_ID_01,1,Window))){
-		MessageBox(0,L"Não foi possível criar edit!",L"ERROR",MB_OK|MB_ICONERROR);
-		return 1;
-	}
-	if(nil==(CreateEdit(227,90,190,20,"",EDT_ID_02,1,Window))){
-		MessageBox(0,L"Não foi possível criar edit!",L"ERROR",MB_OK|MB_ICONERROR);
-		return 1;
-	}
-	if(nil==(CreateEdit(421,90,190,20,"teste",EDT_ID_03,1,Window))){
-		MessageBox(0,L"Não foi possível criar edit!",L"ERROR",MB_OK|MB_ICONERROR);
-		return 1;
-	}
+	CreateEdit(33,90,190,20,"",EDT_ID_01,1,Window);
+	CreateEdit(227,90,190,20,"",EDT_ID_02,1,Window);
+	CreateEdit(421,90,190,20,"teste",EDT_ID_03,1,Window);
 
 	/* Frame + EditBox */
-	if(nil==(CreateFrame(0,33,120,579,310,"",FRAME_ID,0,Window))){
-		MessageBox(0,L"Não foi possível criar frame!",L"ERROR",MB_OK|MB_ICONERROR);
-		return 1;
-	}
+	CreateFrame(0,33,120,579,310,"",FRAME_ID,0,Window);
+	CreateAdvancedEdit(SIMPLE_BOX_NOWV,33+1,120+1,579-2,310-2,"",EDT_ID_04,0,Window);
 
-	if(nil==(EditBox=CreateAdvancedEdit(SIMPLE_BOX_NOWV,33+1,120+1,579-2,310-2,"",EDT_ID_04,0,Window))){
-		MessageBox(0,L"Não foi possível criar edit avancada!",L"ERROR",MB_OK|MB_ICONERROR);
-		return 1;
-	}
 	SetPropA(EditBox,"VSCROLL",(HANDLE)1);			/* Hide scroll */
 	SendMessage(EditBox,EM_SETLIMITTEXT,0,0);		/* Text Buffer 2GB */
 
 	/* Label com fundo transparente */
-	if(nil==(CreateLabel(0,33,435,579,18,"Label com fundo transparente =D",LABEL_TRANSPARENT,0,Window))){
-		MessageBox(0,L"Não foi possível criar label!",L"ERROR",MB_OK|MB_ICONERROR);
-		return 1;
-	}
+	CreateLabel(0,33,435,579,18,"Label com fundo transparente =D",LABEL_TRANSPARENT,0,Window);
 
 	/* Label com fundo de cor sólida */
-	if(nil==(CreateLabel(0,33,458,579,18,"Label com fundo de cor solida =D",LABEL_COR,0,Window))){
-		MessageBox(0,L"Não foi possível criar label!",L"ERROR",MB_OK|MB_ICONERROR);
-		return 1;
-	}
+	CreateLabel(0,33,458,579,18,"Label com fundo de cor solida =D",LABEL_COR,0,Window);
 
 	/* Menu e submenu */
 	hMenu = CreateMenu();
