@@ -14,8 +14,8 @@ Language: Portuguese Brazilian
 LibGUI
 Um conjunto de funções auxiliares destinadas a criação de controles personalizados utilizando a WinAPI.
 
-Data: 7 de março de 2014
-Autor: Dennis / https://github.com/DennisAnsiC/
+- Data: 7 de março de 2014
+- Autor: Dennis / dennisansic@inbox.im
 
 
 -> Sumário
