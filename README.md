@@ -33,17 +33,17 @@ C Small GUI library
 ### 0x00 - GUIInitialize
 - Função utilizada para inicializar a LibGUI. Onde a mesma cria a classe da janela e a registra.
 
-    Protótipo:
-	 int result = GUIInitialize(WNDPROC WindowCallback, HBRUSH WindowColor);
+		Protótipo:
+		 int result = GUIInitialize(WNDPROC WindowCallback, HBRUSH WindowColor);
 
-	Retorno:
-	 Se tudo ocorrer bem, o retorno será LIBGUI_ERROR_SUCCESS, caso con-
-	 trário se ocorrer algum erro o retorno será LIBGUI_ERROR.
-	 
-	Argumentos:
-	 WindowCallback, Trata-se do nome da Callback que irá utilizar para
-	 receber e tratar as mensagens da janela.
-	 WindowColor, Cor de fundo da janela.
+		Retorno:
+		 Se tudo ocorrer bem, o retorno será LIBGUI_ERROR_SUCCESS, caso con-
+		 trário se ocorrer algum erro o retorno será LIBGUI_ERROR.
+		 
+		Argumentos:
+		 WindowCallback, Trata-se do nome da Callback que irá utilizar para
+		 receber e tratar as mensagens da janela.
+		 WindowColor, Cor de fundo da janela.
 
 
 0x01 -> CreateSimpleWindow
