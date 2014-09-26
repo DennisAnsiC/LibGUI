@@ -1,7 +1,7 @@
 #pragma comment(lib, "Comctl32.lib")
 
 #include <Windows.h>	/* Windows Run-Time headers */
-#include <SonicRT.h>	/* Sonic Run-Time headers */
+#include <SonicRT.h>	/* Sonic Run-Time headers (old) */
 #include <Commctrl.h>
 
 _LIBGUI_CONFIGS_		/* LibGUI Config's */
