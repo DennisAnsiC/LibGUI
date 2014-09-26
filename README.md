@@ -30,9 +30,8 @@ C Small GUI library
 - 0x10 - CreateStatic
 
 
-#### 0x00 > GUIInitialize
-  Função utilizada para inicializar a LibGUI. Onde a mesma cria a classe
-  da janela e a registra.
+### 0x00 - GUIInitialize
+- Função utilizada para inicializar a LibGUI. Onde a mesma cria a classe da janela e a registra.
 
     Protótipo:
 	 int result = GUIInitialize(WNDPROC WindowCallback, HBRUSH WindowColor);
