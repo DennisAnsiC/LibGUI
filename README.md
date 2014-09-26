@@ -1,6 +1,6 @@
 # LibGUI
 
-C Small GUI library
+A simple and small library for creating graphical user interface.
 
 
 
