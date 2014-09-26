@@ -7,7 +7,7 @@ C Small GUI library
 ![alt tag](https://raw.githubusercontent.com/DennisAnsiC/LibGUI/master/example.gif)
 
 
-# Reference...
+### Reference...
 
 Language: Portuguese Brazilian
 
@@ -18,7 +18,7 @@ Data: 7 de março de 2014
 Autor: Dennis / https://github.com/DennisAnsiC/
 
 
--> Sumário 
+-> Sumário
   GUIInitialize .................................................... 0x00
   CreateSimpleWindow ............................................... 0x01
   GetColor ......................................................... 0x02
