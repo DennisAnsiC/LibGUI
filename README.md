@@ -1,24 +1,23 @@
-LibGUI
-======
+# LibGUI
 
 C Small GUI library
+
+
 
 ![alt tag](https://raw.githubusercontent.com/DennisAnsiC/LibGUI/master/example.gif)
 
 
+# Reference...
 
-/* ******************************************************************* **
-** Language: Portuguese Brazilian                                      **
-**                                                                     **
-** LibGUI                                                              **
-** Um conjunto de funções auxiliares destinadas a criação de controles **
-** personalizados utilizando a WinAPI.                                 **
-**                                                                     **
-** Data: 7 de março de 2014                                            **
-** Autor: Dennis / https://github.com/DennisAnsiC/                     **
-**                                                                     **
-** ******************************************************************* */
-   
+Language: Portuguese Brazilian
+
+LibGUI
+Um conjunto de funções auxiliares destinadas a criação de controles personalizados utilizando a WinAPI.
+
+Data: 7 de março de 2014
+Autor: Dennis / https://github.com/DennisAnsiC/
+
+
 -> Sumário 
   GUIInitialize .................................................... 0x00
   CreateSimpleWindow ............................................... 0x01
