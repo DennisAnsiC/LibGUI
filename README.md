@@ -9,27 +9,25 @@ C Small GUI library
 
 ### Reference...
 
-Language: Portuguese Brazilian
-
-LibGUI
-Um conjunto de funções auxiliares destinadas a criação de controles personalizados utilizando a WinAPI.
-
+- Language: Portuguese Brazilian
+- Nome: LibGUI
+- Descrição: Conjunto de funções auxiliares destinadas a criação de controles personalizados utilizando a WinAPI.
 - Data: 7 de março de 2014
 - Autor: Dennis / dennisansic@inbox.im
 
 
 ###Sumário
--  0x00 - GUIInitialize
--  0x01 - CreateSimpleWindow
--  0x02 - GetColor
--  0x03 - RefreshWindow
--  0x04 - CreateButton
--  0x05 - ButtonHover
--  0x06 - CreateEdit
--  0x07 - HoverEdit
--  0x08 - CreateEditBox
--  0x09 - SetControlColor
--  0x10 - CreateStatic
+- 0x00 - GUIInitialize
+- 0x01 - CreateSimpleWindow
+- 0x02 - GetColor
+- 0x03 - RefreshWindow
+- 0x04 - CreateButton
+- 0x05 - ButtonHover
+- 0x06 - CreateEdit
+- 0x07 - HoverEdit
+- 0x08 - CreateEditBox
+- 0x09 - SetControlColor
+- 0x10 - CreateStatic
 
 
 0x00 -> GUIInitialize
