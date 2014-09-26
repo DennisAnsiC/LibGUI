@@ -19,17 +19,17 @@ Um conjunto de funções auxiliares destinadas a criação de controles personal
 
 
 ###Sumário
--  GUIInitialize .................................................... 0x00
--  CreateSimpleWindow ............................................... 0x01
--  GetColor ......................................................... 0x02
--  RefreshWindow .................................................... 0x03
--  CreateButton ..................................................... 0x04
--  ButtonHover ...................................................... 0x05
--  CreateEdit ....................................................... 0x06
--  HoverEdit ........................................................ 0x07
--  CreateEditBox .................................................... 0x08
--  SetControlColor .................................................. 0x09
--  CreateStatic ..................................................... 0x10
+-  0x00 - GUIInitialize
+-  0x01 - CreateSimpleWindow
+-  0x02 - GetColor
+-  0x03 - RefreshWindow
+-  0x04 - CreateButton
+-  0x05 - ButtonHover
+-  0x06 - CreateEdit
+-  0x07 - HoverEdit
+-  0x08 - CreateEditBox
+-  0x09 - SetControlColor
+-  0x10 - CreateStatic
 
 
 0x00 -> GUIInitialize
